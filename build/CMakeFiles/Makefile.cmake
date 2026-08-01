@@ -7,10 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/data/data/com.termux/files/home/TextToolkit/CMakeLists.txt"
+  "/data/data/com.termux/files/home/storage/downloads/TextToolkit/CMakeLists.txt"
   "CMakeFiles/4.3.4/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.4/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in"
   "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
   "/data/data/com.termux/files/usr/share/cmake-4.3/Modules/CMakeCInformation.cmake"

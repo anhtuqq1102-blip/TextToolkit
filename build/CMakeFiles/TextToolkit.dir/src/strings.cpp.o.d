@@ -1,6 +1,6 @@
 CMakeFiles/TextToolkit.dir/src/strings.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/strings.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/strings.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/filesystem \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \

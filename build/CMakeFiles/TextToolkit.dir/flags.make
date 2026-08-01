@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/TextToolkit/include
+CXX_INCLUDES = -I/data/data/com.termux/files/home/storage/downloads/TextToolkit/include
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++17
 

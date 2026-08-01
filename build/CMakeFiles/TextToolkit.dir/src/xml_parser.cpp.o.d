@@ -1,6 +1,6 @@
 CMakeFiles/TextToolkit.dir/src/xml_parser.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/xml_parser.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/xml_parser.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/xml_parser.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/xml_parser.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -70,7 +70,7 @@ CMakeFiles/TextToolkit.dir/src/xml_parser.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/xlocale.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/strcasecmp.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/flock64.h \

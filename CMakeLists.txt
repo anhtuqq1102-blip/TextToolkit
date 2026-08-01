@@ -2,7 +2,11 @@ cmake_minimum_required(VERSION 3.10)
 project(TextToolkit)
 set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
+    src/*.cpp
+)
 add_executable(TextToolkit
+    ${SOURCES}
 src/translation_engine_real_v2.cpp
 src/json_engine_v2.cpp
 src/xml_engine_v2.cpp

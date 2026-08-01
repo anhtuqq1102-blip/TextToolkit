@@ -1,6 +1,6 @@
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/apk_rebuild_sign.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/apk_rebuild_sign.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_rebuild_sign.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/apk_rebuild_sign.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/filesystem \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -278,7 +278,7 @@ CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/strcasecmp.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/flock64.h \

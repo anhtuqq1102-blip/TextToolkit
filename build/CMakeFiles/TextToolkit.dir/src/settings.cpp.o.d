@@ -1,7 +1,7 @@
 CMakeFiles/TextToolkit.dir/src/settings.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/settings.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/backup.h \
-  /data/data/com.termux/files/home/TextToolkit/include/theme.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/settings.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/backup.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/theme.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -71,7 +71,7 @@ CMakeFiles/TextToolkit.dir/src/settings.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/xlocale.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/strcasecmp.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/flock64.h \

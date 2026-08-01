@@ -1,6 +1,6 @@
 CMakeFiles/TextToolkit.dir/src/project_integration.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/project_integration.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/project_integration.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/project_integration.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/project_integration.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/string \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/max.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
@@ -229,7 +229,7 @@ CMakeFiles/TextToolkit.dir/src/project_integration.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/strcasecmp.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/flock64.h \

@@ -1,5 +1,6 @@
-CMakeFiles/TextToolkit.dir/src/menu.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/menu.cpp \
+CMakeFiles/TextToolkit.dir/src/parser.cpp.o: \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/parser.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/parser.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -69,7 +70,7 @@ CMakeFiles/TextToolkit.dir/src/menu.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/string.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/xlocale.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/strcasecmp.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/flock64.h \
@@ -692,6 +693,4 @@ CMakeFiles/TextToolkit.dir/src/menu.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
-  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/TextToolkit/include/menu.h \
-  /data/data/com.termux/files/home/TextToolkit/include/version.h
+  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/data/data/com.termux/files/home/TextToolkit/build/cmake_install.cmake"
+		"/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

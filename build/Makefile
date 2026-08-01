@@ -57,10 +57,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/TextToolkit
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/storage/downloads/TextToolkit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/TextToolkit/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/storage/downloads/TextToolkit/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/TextToolkit/build/CMakeFiles /data/data/com.termux/files/home/TextToolkit/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles /data/data/com.termux/files/home/storage/downloads/TextToolkit/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/TextToolkit/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -609,29 +610,29 @@ src/memory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/memory.cpp.s
 .PHONY : src/memory.cpp.s
 
-src/menu.o: src/menu.cpp.o
-.PHONY : src/menu.o
+src/parser.o: src/parser.cpp.o
+.PHONY : src/parser.o
 
 # target to build an object file
-src/menu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/menu.cpp.o
-.PHONY : src/menu.cpp.o
+src/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/parser.cpp.o
+.PHONY : src/parser.cpp.o
 
-src/menu.i: src/menu.cpp.i
-.PHONY : src/menu.i
+src/parser.i: src/parser.cpp.i
+.PHONY : src/parser.i
 
 # target to preprocess a source file
-src/menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/menu.cpp.i
-.PHONY : src/menu.cpp.i
+src/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
 
-src/menu.s: src/menu.cpp.s
-.PHONY : src/menu.s
+src/parser.s: src/parser.cpp.s
+.PHONY : src/parser.s
 
 # target to generate assembly for a file
-src/menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/menu.cpp.s
-.PHONY : src/menu.cpp.s
+src/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
 
 src/parser_real.o: src/parser_real.cpp.o
 .PHONY : src/parser_real.o
@@ -656,30 +657,6 @@ src/parser_real.s: src/parser_real.cpp.s
 src/parser_real.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/parser_real.cpp.s
 .PHONY : src/parser_real.cpp.s
-
-src/progress.o: src/progress.cpp.o
-.PHONY : src/progress.o
-
-# target to build an object file
-src/progress.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/progress.cpp.o
-.PHONY : src/progress.cpp.o
-
-src/progress.i: src/progress.cpp.i
-.PHONY : src/progress.i
-
-# target to preprocess a source file
-src/progress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/progress.cpp.i
-.PHONY : src/progress.cpp.i
-
-src/progress.s: src/progress.cpp.s
-.PHONY : src/progress.s
-
-# target to generate assembly for a file
-src/progress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/progress.cpp.s
-.PHONY : src/progress.cpp.s
 
 src/project.o: src/project.cpp.o
 .PHONY : src/project.o
@@ -1089,30 +1066,6 @@ src/system_integration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/system_integration.cpp.s
 .PHONY : src/system_integration.cpp.s
 
-src/theme.o: src/theme.cpp.o
-.PHONY : src/theme.o
-
-# target to build an object file
-src/theme.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/theme.cpp.o
-.PHONY : src/theme.cpp.o
-
-src/theme.i: src/theme.cpp.i
-.PHONY : src/theme.i
-
-# target to preprocess a source file
-src/theme.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/theme.cpp.i
-.PHONY : src/theme.cpp.i
-
-src/theme.s: src/theme.cpp.s
-.PHONY : src/theme.s
-
-# target to generate assembly for a file
-src/theme.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/theme.cpp.s
-.PHONY : src/theme.cpp.s
-
 src/translate_engine.o: src/translate_engine.cpp.o
 .PHONY : src/translate_engine.o
 
@@ -1257,6 +1210,78 @@ src/translator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/translator.cpp.s
 .PHONY : src/translator.cpp.s
 
+src/ui/menu.o: src/ui/menu.cpp.o
+.PHONY : src/ui/menu.o
+
+# target to build an object file
+src/ui/menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/menu.cpp.o
+.PHONY : src/ui/menu.cpp.o
+
+src/ui/menu.i: src/ui/menu.cpp.i
+.PHONY : src/ui/menu.i
+
+# target to preprocess a source file
+src/ui/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/menu.cpp.i
+.PHONY : src/ui/menu.cpp.i
+
+src/ui/menu.s: src/ui/menu.cpp.s
+.PHONY : src/ui/menu.s
+
+# target to generate assembly for a file
+src/ui/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/menu.cpp.s
+.PHONY : src/ui/menu.cpp.s
+
+src/ui/progress.o: src/ui/progress.cpp.o
+.PHONY : src/ui/progress.o
+
+# target to build an object file
+src/ui/progress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/progress.cpp.o
+.PHONY : src/ui/progress.cpp.o
+
+src/ui/progress.i: src/ui/progress.cpp.i
+.PHONY : src/ui/progress.i
+
+# target to preprocess a source file
+src/ui/progress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/progress.cpp.i
+.PHONY : src/ui/progress.cpp.i
+
+src/ui/progress.s: src/ui/progress.cpp.s
+.PHONY : src/ui/progress.s
+
+# target to generate assembly for a file
+src/ui/progress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/progress.cpp.s
+.PHONY : src/ui/progress.cpp.s
+
+src/ui/theme.o: src/ui/theme.cpp.o
+.PHONY : src/ui/theme.o
+
+# target to build an object file
+src/ui/theme.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/theme.cpp.o
+.PHONY : src/ui/theme.cpp.o
+
+src/ui/theme.i: src/ui/theme.cpp.i
+.PHONY : src/ui/theme.i
+
+# target to preprocess a source file
+src/ui/theme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/theme.cpp.i
+.PHONY : src/ui/theme.cpp.i
+
+src/ui/theme.s: src/ui/theme.cpp.s
+.PHONY : src/ui/theme.s
+
+# target to generate assembly for a file
+src/ui/theme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ui/theme.cpp.s
+.PHONY : src/ui/theme.cpp.s
+
 src/xml_engine_v2.o: src/xml_engine_v2.cpp.o
 .PHONY : src/xml_engine_v2.o
 
@@ -1398,15 +1423,12 @@ help:
 	@echo "... src/memory.o"
 	@echo "... src/memory.i"
 	@echo "... src/memory.s"
-	@echo "... src/menu.o"
-	@echo "... src/menu.i"
-	@echo "... src/menu.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
 	@echo "... src/parser_real.o"
 	@echo "... src/parser_real.i"
 	@echo "... src/parser_real.s"
-	@echo "... src/progress.o"
-	@echo "... src/progress.i"
-	@echo "... src/progress.s"
 	@echo "... src/project.o"
 	@echo "... src/project.i"
 	@echo "... src/project.s"
@@ -1458,9 +1480,6 @@ help:
 	@echo "... src/system_integration.o"
 	@echo "... src/system_integration.i"
 	@echo "... src/system_integration.s"
-	@echo "... src/theme.o"
-	@echo "... src/theme.i"
-	@echo "... src/theme.s"
 	@echo "... src/translate_engine.o"
 	@echo "... src/translate_engine.i"
 	@echo "... src/translate_engine.s"
@@ -1479,6 +1498,15 @@ help:
 	@echo "... src/translator.o"
 	@echo "... src/translator.i"
 	@echo "... src/translator.s"
+	@echo "... src/ui/menu.o"
+	@echo "... src/ui/menu.i"
+	@echo "... src/ui/menu.s"
+	@echo "... src/ui/progress.o"
+	@echo "... src/ui/progress.i"
+	@echo "... src/ui/progress.s"
+	@echo "... src/ui/theme.o"
+	@echo "... src/ui/theme.i"
+	@echo "... src/ui/theme.s"
 	@echo "... src/xml_engine_v2.o"
 	@echo "... src/xml_engine_v2.i"
 	@echo "... src/xml_engine_v2.s"
@@ -1499,6 +1527,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

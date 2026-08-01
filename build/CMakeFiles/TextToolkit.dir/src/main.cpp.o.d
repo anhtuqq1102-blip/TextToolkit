@@ -1,20 +1,20 @@
 CMakeFiles/TextToolkit.dir/src/main.cpp.o: \
-  /data/data/com.termux/files/home/TextToolkit/src/main.cpp \
-  /data/data/com.termux/files/home/TextToolkit/include/memory.h \
-  /data/data/com.termux/files/home/TextToolkit/include/xml_parser.h \
-  /data/data/com.termux/files/home/TextToolkit/include/repack.h \
-  /data/data/com.termux/files/home/TextToolkit/include/translate_engine.h \
-  /data/data/com.termux/files/home/TextToolkit/include/strings.h \
-  /data/data/com.termux/files/home/TextToolkit/include/version.h \
-  /data/data/com.termux/files/home/TextToolkit/include/filelist.h \
-  /data/data/com.termux/files/home/TextToolkit/include/about.h \
-  /data/data/com.termux/files/home/TextToolkit/include/settings.h \
-  /data/data/com.termux/files/home/TextToolkit/include/info.h \
-  /data/data/com.termux/files/home/TextToolkit/include/history.h \
-  /data/data/com.termux/files/home/TextToolkit/include/progress.h \
-  /data/data/com.termux/files/home/TextToolkit/include/scanner.h \
-  /data/data/com.termux/files/home/TextToolkit/include/translator.h \
-  /data/data/com.termux/files/home/TextToolkit/include/project.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/main.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/memory.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/xml_parser.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/repack.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/translate_engine.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/strings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/version.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/filelist.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/about.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/settings.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/info.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/history.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/progress.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/scanner.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/translator.h \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/project.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -707,4 +707,4 @@ CMakeFiles/TextToolkit.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/TextToolkit/include/menu.h
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/menu.h
