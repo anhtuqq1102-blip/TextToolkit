@@ -100,24 +100,10 @@ CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/ai_translate.cpp -o CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.s
 
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode.cpp
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode.cpp
-
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode.cpp > CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.i
-
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode.cpp -o CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.s
-
 CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode_real.cpp
 CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode_real.cpp
 
 CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.i: cmake_force
@@ -128,38 +114,10 @@ CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode_real.cpp -o CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.s
 
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_engine.cpp
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_engine.cpp
-
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_engine.cpp > CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.i
-
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_engine.cpp -o CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.s
-
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_extractor.cpp
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_extractor.cpp
-
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_extractor.cpp > CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.i
-
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_extractor.cpp -o CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.s
-
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_rebuild_sign.cpp
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_rebuild_sign.cpp
 
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.i: cmake_force
@@ -173,7 +131,7 @@ CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.s: cmake_force
 CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apktool_engine.cpp
 CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o -MF CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apktool_engine.cpp
 
 CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.i: cmake_force
@@ -187,7 +145,7 @@ CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.s: cmake_force
 CMakeFiles/TextToolkit.dir/src/backup.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/backup.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/backup.cpp
 CMakeFiles/TextToolkit.dir/src/backup.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TextToolkit.dir/src/backup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TextToolkit.dir/src/backup.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/backup.cpp.o -MF CMakeFiles/TextToolkit.dir/src/backup.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/backup.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/backup.cpp
 
 CMakeFiles/TextToolkit.dir/src/backup.cpp.i: cmake_force
@@ -201,7 +159,7 @@ CMakeFiles/TextToolkit.dir/src/backup.cpp.s: cmake_force
 CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/batch_translate.cpp
 CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o -MF CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/batch_translate.cpp
 
 CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.i: cmake_force
@@ -215,7 +173,7 @@ CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.s: cmake_force
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/core_integration.cpp
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o -MF CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/core_integration.cpp
 
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.i: cmake_force
@@ -225,6 +183,48 @@ CMakeFiles/TextToolkit.dir/src/core_integration.cpp.i: cmake_force
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/core_integration.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/core_integration.cpp -o CMakeFiles/TextToolkit.dir/src/core_integration.cpp.s
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_decode.cpp
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o -MF CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_decode.cpp
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_decode.cpp > CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.i
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_decode.cpp -o CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.s
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_engine.cpp
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o -MF CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_engine.cpp
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_engine.cpp > CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.i
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_engine.cpp -o CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.s
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_extractor.cpp
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o: CMakeFiles/TextToolkit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/storage/downloads/TextToolkit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o -MF CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o.d -o CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o -c /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_extractor.cpp
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_extractor.cpp > CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.i
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_extractor.cpp -o CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.s
 
 CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o: CMakeFiles/TextToolkit.dir/flags.make
 CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o: /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/file_scanner_v2.cpp
@@ -790,15 +790,15 @@ CMakeFiles/TextToolkit.dir/src/xml_parser.cpp.s: cmake_force
 TextToolkit_OBJECTS = \
 "CMakeFiles/TextToolkit.dir/src/about.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.o" \
-"CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o" \
-"CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o" \
-"CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/backup.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o" \
+"CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o" \
+"CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o" \
+"CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/filelist.cpp.o" \
 "CMakeFiles/TextToolkit.dir/src/game_translate.cpp.o" \
@@ -845,15 +845,15 @@ TextToolkit_EXTERNAL_OBJECTS =
 
 TextToolkit: CMakeFiles/TextToolkit.dir/src/about.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.o
-TextToolkit: CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o
-TextToolkit: CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o
-TextToolkit: CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/backup.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o
+TextToolkit: CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o
+TextToolkit: CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o
+TextToolkit: CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/filelist.cpp.o
 TextToolkit: CMakeFiles/TextToolkit.dir/src/game_translate.cpp.o

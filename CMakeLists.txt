@@ -21,14 +21,14 @@ src/release_manager.cpp
 src/apk_rebuild_sign.cpp
 src/translation_pipeline.cpp
 src/resource_scanner.cpp
-src/apk_decode.cpp
+src/engine/apk_decode.cpp
 src/apktool_engine.cpp
 src/repack_v2.cpp
 src/translation_engine_v2.cpp
 src/file_scanner_v2.cpp
 src/xml_extract.cpp
-src/apk_extractor.cpp
-src/apk_engine.cpp
+src/engine/apk_extractor.cpp
+src/engine/apk_engine.cpp
 src/ai_translate.cpp
 src/batch_translate.cpp
 src/smart_translate.cpp

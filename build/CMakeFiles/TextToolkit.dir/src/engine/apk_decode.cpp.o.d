@@ -1,5 +1,5 @@
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o: \
-  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_decode.cpp \
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o: \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_decode.cpp \
   /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/apk_decode.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/filesystem \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \

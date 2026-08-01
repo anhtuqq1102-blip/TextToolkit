@@ -1,6 +1,6 @@
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o: \
-  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/apk_engine.cpp \
-  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/apk_engine.h \
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o: \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/src/engine/apk_extractor.cpp \
+  /data/data/com.termux/files/home/storage/downloads/TextToolkit/include/apk_extractor.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/filesystem \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \

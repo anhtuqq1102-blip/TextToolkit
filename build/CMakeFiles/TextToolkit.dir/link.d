@@ -2,15 +2,15 @@ TextToolkit: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/TextToolkit.dir/src/about.cpp.o \
  CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.o \
- CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o \
  CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o \
- CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o \
- CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o \
  CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o \
  CMakeFiles/TextToolkit.dir/src/apktool_engine.cpp.o \
  CMakeFiles/TextToolkit.dir/src/backup.cpp.o \
  CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o \
  CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o \
+ CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o \
+ CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o \
+ CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o \
  CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o \
  CMakeFiles/TextToolkit.dir/src/filelist.cpp.o \
  CMakeFiles/TextToolkit.dir/src/game_translate.cpp.o \
@@ -65,13 +65,7 @@ CMakeFiles/TextToolkit.dir/src/about.cpp.o:
 
 CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.o:
 
-CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o:
-
 CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.o:
-
-CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o:
-
-CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o:
 
 CMakeFiles/TextToolkit.dir/src/apk_rebuild_sign.cpp.o:
 
@@ -82,6 +76,12 @@ CMakeFiles/TextToolkit.dir/src/backup.cpp.o:
 CMakeFiles/TextToolkit.dir/src/batch_translate.cpp.o:
 
 CMakeFiles/TextToolkit.dir/src/core_integration.cpp.o:
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o:
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o:
+
+CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o:
 
 CMakeFiles/TextToolkit.dir/src/file_scanner_v2.cpp.o:
 

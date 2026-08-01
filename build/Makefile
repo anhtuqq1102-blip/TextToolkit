@@ -178,30 +178,6 @@ src/ai_translate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/ai_translate.cpp.s
 .PHONY : src/ai_translate.cpp.s
 
-src/apk_decode.o: src/apk_decode.cpp.o
-.PHONY : src/apk_decode.o
-
-# target to build an object file
-src/apk_decode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.o
-.PHONY : src/apk_decode.cpp.o
-
-src/apk_decode.i: src/apk_decode.cpp.i
-.PHONY : src/apk_decode.i
-
-# target to preprocess a source file
-src/apk_decode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.i
-.PHONY : src/apk_decode.cpp.i
-
-src/apk_decode.s: src/apk_decode.cpp.s
-.PHONY : src/apk_decode.s
-
-# target to generate assembly for a file
-src/apk_decode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_decode.cpp.s
-.PHONY : src/apk_decode.cpp.s
-
 src/apk_decode_real.o: src/apk_decode_real.cpp.o
 .PHONY : src/apk_decode_real.o
 
@@ -225,54 +201,6 @@ src/apk_decode_real.s: src/apk_decode_real.cpp.s
 src/apk_decode_real.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_decode_real.cpp.s
 .PHONY : src/apk_decode_real.cpp.s
-
-src/apk_engine.o: src/apk_engine.cpp.o
-.PHONY : src/apk_engine.o
-
-# target to build an object file
-src/apk_engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.o
-.PHONY : src/apk_engine.cpp.o
-
-src/apk_engine.i: src/apk_engine.cpp.i
-.PHONY : src/apk_engine.i
-
-# target to preprocess a source file
-src/apk_engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.i
-.PHONY : src/apk_engine.cpp.i
-
-src/apk_engine.s: src/apk_engine.cpp.s
-.PHONY : src/apk_engine.s
-
-# target to generate assembly for a file
-src/apk_engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_engine.cpp.s
-.PHONY : src/apk_engine.cpp.s
-
-src/apk_extractor.o: src/apk_extractor.cpp.o
-.PHONY : src/apk_extractor.o
-
-# target to build an object file
-src/apk_extractor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.o
-.PHONY : src/apk_extractor.cpp.o
-
-src/apk_extractor.i: src/apk_extractor.cpp.i
-.PHONY : src/apk_extractor.i
-
-# target to preprocess a source file
-src/apk_extractor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.i
-.PHONY : src/apk_extractor.cpp.i
-
-src/apk_extractor.s: src/apk_extractor.cpp.s
-.PHONY : src/apk_extractor.s
-
-# target to generate assembly for a file
-src/apk_extractor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/apk_extractor.cpp.s
-.PHONY : src/apk_extractor.cpp.s
 
 src/apk_rebuild_sign.o: src/apk_rebuild_sign.cpp.o
 .PHONY : src/apk_rebuild_sign.o
@@ -393,6 +321,78 @@ src/core_integration.s: src/core_integration.cpp.s
 src/core_integration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/core_integration.cpp.s
 .PHONY : src/core_integration.cpp.s
+
+src/engine/apk_decode.o: src/engine/apk_decode.cpp.o
+.PHONY : src/engine/apk_decode.o
+
+# target to build an object file
+src/engine/apk_decode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.o
+.PHONY : src/engine/apk_decode.cpp.o
+
+src/engine/apk_decode.i: src/engine/apk_decode.cpp.i
+.PHONY : src/engine/apk_decode.i
+
+# target to preprocess a source file
+src/engine/apk_decode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.i
+.PHONY : src/engine/apk_decode.cpp.i
+
+src/engine/apk_decode.s: src/engine/apk_decode.cpp.s
+.PHONY : src/engine/apk_decode.s
+
+# target to generate assembly for a file
+src/engine/apk_decode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_decode.cpp.s
+.PHONY : src/engine/apk_decode.cpp.s
+
+src/engine/apk_engine.o: src/engine/apk_engine.cpp.o
+.PHONY : src/engine/apk_engine.o
+
+# target to build an object file
+src/engine/apk_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.o
+.PHONY : src/engine/apk_engine.cpp.o
+
+src/engine/apk_engine.i: src/engine/apk_engine.cpp.i
+.PHONY : src/engine/apk_engine.i
+
+# target to preprocess a source file
+src/engine/apk_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.i
+.PHONY : src/engine/apk_engine.cpp.i
+
+src/engine/apk_engine.s: src/engine/apk_engine.cpp.s
+.PHONY : src/engine/apk_engine.s
+
+# target to generate assembly for a file
+src/engine/apk_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_engine.cpp.s
+.PHONY : src/engine/apk_engine.cpp.s
+
+src/engine/apk_extractor.o: src/engine/apk_extractor.cpp.o
+.PHONY : src/engine/apk_extractor.o
+
+# target to build an object file
+src/engine/apk_extractor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.o
+.PHONY : src/engine/apk_extractor.cpp.o
+
+src/engine/apk_extractor.i: src/engine/apk_extractor.cpp.i
+.PHONY : src/engine/apk_extractor.i
+
+# target to preprocess a source file
+src/engine/apk_extractor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.i
+.PHONY : src/engine/apk_extractor.cpp.i
+
+src/engine/apk_extractor.s: src/engine/apk_extractor.cpp.s
+.PHONY : src/engine/apk_extractor.s
+
+# target to generate assembly for a file
+src/engine/apk_extractor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextToolkit.dir/build.make CMakeFiles/TextToolkit.dir/src/engine/apk_extractor.cpp.s
+.PHONY : src/engine/apk_extractor.cpp.s
 
 src/file_scanner_v2.o: src/file_scanner_v2.cpp.o
 .PHONY : src/file_scanner_v2.o
@@ -1369,18 +1369,9 @@ help:
 	@echo "... src/ai_translate.o"
 	@echo "... src/ai_translate.i"
 	@echo "... src/ai_translate.s"
-	@echo "... src/apk_decode.o"
-	@echo "... src/apk_decode.i"
-	@echo "... src/apk_decode.s"
 	@echo "... src/apk_decode_real.o"
 	@echo "... src/apk_decode_real.i"
 	@echo "... src/apk_decode_real.s"
-	@echo "... src/apk_engine.o"
-	@echo "... src/apk_engine.i"
-	@echo "... src/apk_engine.s"
-	@echo "... src/apk_extractor.o"
-	@echo "... src/apk_extractor.i"
-	@echo "... src/apk_extractor.s"
 	@echo "... src/apk_rebuild_sign.o"
 	@echo "... src/apk_rebuild_sign.i"
 	@echo "... src/apk_rebuild_sign.s"
@@ -1396,6 +1387,15 @@ help:
 	@echo "... src/core_integration.o"
 	@echo "... src/core_integration.i"
 	@echo "... src/core_integration.s"
+	@echo "... src/engine/apk_decode.o"
+	@echo "... src/engine/apk_decode.i"
+	@echo "... src/engine/apk_decode.s"
+	@echo "... src/engine/apk_engine.o"
+	@echo "... src/engine/apk_engine.i"
+	@echo "... src/engine/apk_engine.s"
+	@echo "... src/engine/apk_extractor.o"
+	@echo "... src/engine/apk_extractor.i"
+	@echo "... src/engine/apk_extractor.s"
 	@echo "... src/file_scanner_v2.o"
 	@echo "... src/file_scanner_v2.i"
 	@echo "... src/file_scanner_v2.s"
