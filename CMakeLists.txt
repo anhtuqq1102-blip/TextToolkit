@@ -29,7 +29,7 @@ src/ai_translate.cpp
 src/batch_translate.cpp
 src/smart_translate.cpp
 src/main.cpp
-src/menu.cpp
+src/ui/menu.cpp
 src/project.cpp
 src/translator.cpp
 src/scanner.cpp
@@ -38,11 +38,11 @@ src/translate_engine.cpp
 src/repack.cpp
 src/xml_parser.cpp
 src/memory.cpp
-src/progress.cpp
+src/ui/progress.cpp
 src/history.cpp
 src/info.cpp
 src/settings.cpp
-src/theme.cpp
+src/ui/theme.cpp
 src/backup.cpp
 src/about.cpp
 src/filelist.cpp
