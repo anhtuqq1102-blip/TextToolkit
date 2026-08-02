@@ -1,7 +1,7 @@
 #include <iostream>
-#include "menu.h"
-#include "version.h"
-#include "project.h"
+#include "engine/menu.h"
+#include "engine/version.h"
+#include "engine/project.h"
 using namespace std;
 
 void showMainMenu(){
